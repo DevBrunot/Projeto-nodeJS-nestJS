@@ -5,7 +5,7 @@ node_modules/
 dist/
 
 # Docker
-# (se o arquivo docker-compose.yml informações sensíveis)
+O arquivo docker-compose.yml informações sensíveis)
 docker-compose.yml
 
 # Arquivos de configuração sensíveis
