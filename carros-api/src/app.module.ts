@@ -9,12 +9,12 @@ import { Marca } from './carros/entitys/marca.entity';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'postgres',
-      host: 'localhost',
+      type: '',
+      host: 't',
       port: 5432,
-      username: 'user',
-      password: 'password',
-      database: 'carrosdb',
+      username: '',
+      password: '',
+      database: '',
       entities: [Carro,Marca],
       synchronize: true,  
     }),
